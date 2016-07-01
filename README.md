@@ -5,7 +5,7 @@ First goal of this program is to learn the basic structure of a Go program. Seco
 The idea here is that we can pipe the output of this program directly to pbcoby to grap a test credit card number like so:
 
 ```
-cc | pbcopy
+test_cc | pbcopy
 ```
 
 If this proves useful I'd like to support all the of the credit card types on the site linked above.
