@@ -4,6 +4,7 @@ import(
     "fmt"
     "os"
     "flag"
+    "math/rand"
 )
 
 
@@ -26,9 +27,22 @@ func main() {
 
 
 func VisaCard() string {
-    return "4111111111111111";
+    cards := []string{
+        "4111111111111111",
+        "4012888888881881",
+        "4222222222222",
+        "4242424242424242",
+        "4012888888881881",
+    }
+
+    return cards[rand.Intn(len(cards))]
 }
 
 func MasterCard() string {
-    return "5105105105105100";
+    cards := []string{
+        "5555555555554444",
+        "5105105105105100",
+        "378282246310005",
+    }
+    return cards[rand.Intn(len(cards))]
 }
