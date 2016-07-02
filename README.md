@@ -8,4 +8,10 @@ The idea here is that we can pipe the output of this program directly to pbcoby 
 test_cc | pbcopy
 ```
 
+or
+
+```
+test_cc -card=mastercard | pbcopy
+```
+
 If this proves useful I'd like to support all the of the credit card types on the site linked above.
